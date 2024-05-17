@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('head.ejs') -%>
+  </head>
+
+  <body>
+    <%- include('header.ejs') -%>
+    <!-- ==========Banner Section Starts Here========== -->
+    <section
+      class="page-header bg_img"
+      data-background="assets/images/banner/page-header.jpg"
+    >
+      <div class="container">
+        <div class="page-header-content">
+          <h1 class="title">contact information</h1>
+          <ul class="breadcrumb">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ==========Banner Section Ends Here========== -->
+
+    <!-- ==========Contact Section Starts Here========== -->
+    <section class="contact-section padding-top padding-bottom">
+      <div class="container">
+        <div class="contact-form-area">
+          <div class="row flex-row-reverse">
+            <div class="col-lg-8 mb-5 mb-lg-0">
+              <h4 class="title">Leave A Message</h4>
+              <form class="contact-form" id="contact_form_submit">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    id="name"
+                    name="name"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    placeholder="Your Email"
+                    id="email"
+                    name="email"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    placeholder="Phone"
+                    id="phone"
+                    name="phone"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    placeholder="Subject"
+                    id="subject"
+                    name="subject"
+                  />
+                </div>
+                <div class="form-group w-100">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+                <div class="form-group w-100 text-center">
+                  <button class="custom-button">
+                    <span>Send Message</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-4">
+              <div class="contact-wrapper">
+                <div class="contact-item">
+                  <div class="contact-thumb">
+                    <img src="assets/images/contact/01.png" alt="contact" />
+                  </div>
+                  <div class="contact-content">
+                    <h6 class="title">Office Address</h6>
+                    <p>Nagarjun - 01, Kathmandu, Nepal</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-thumb">
+                    <img src="assets/images/contact/02.png" alt="contact" />
+                  </div>
+                  <div class="contact-content">
+                    <h6 class="title">Phone number</h6>
+                    <p>+01-4880927</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-thumb">
+                    <img src="assets/images/contact/03.png" alt="contact" />
+                  </div>
+                  <div class="contact-content">
+                    <h6 class="title">Send email</h6>
+                    <a href="mailto:info@gmail.com">phrcnepal@phrcnp.org</a>
+                  </div>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========Contact Section Ends Here========== -->
+
+    <!-- ==========Map Section Starts Here========== -->    
+      <!-- <div class="contact-area padding-bottom padding-top pt-lg-0 pb-lg-0">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-item">
+                        <div class="contact-thumb">
+                            <img src="assets/images/contact/01.png" alt="contact">
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="title">Office Address</h6>
+                            <p>1201 park street, Fifth Avenue</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-thumb">
+                            <img src="assets/images/contact/02.png" alt="contact">
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="title">Phone number</h6>
+                            <p>+22698 745 632,02 982 745</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-thumb">
+                            <img src="assets/images/contact/03.png" alt="contact">
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="title">Send email </h6>
+                            <a href="mailto:info@gmail.com">yourmail@gmil.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-thumb">
+                            <img src="assets/images/contact/04.png" alt="contact">
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="title">Our website</h6>
+                            <a href="#">www.yoursitename@gmil.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <!-- ==========Map Section Ends Here========== -->
+
+    <!-- ==========Footer Section Starts Here========== -->
+    <%- include('footer.ejs') -%>
+    <!-- ==========Footer Section Ends Here========== -->
+  </body>
+</html>

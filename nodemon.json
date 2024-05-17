@@ -1,0 +1,6 @@
+{
+    "verbose": false,
+    "ext": "ts,js,.env,sql,ejs",
+    "watch": ["src/**/*", ".env"],
+    "exec": "npm run build && node dist/server.js"
+  }
